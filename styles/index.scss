@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(
+                     rgba(30,20,21, .3),
+                     rgba(30,20,20, .3)),
+                      url('../background-image.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  // background-color: #560039;
+  font-family: 'Mukta Mahee', sans-serif;
+}
