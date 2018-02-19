@@ -1,0 +1,26 @@
+.Welcome {
+  margin: 100px auto;
+  
+  header {
+    margin: auto;
+    background-color: #560039;
+    opacity: 0.6;
+    width: 60%;
+    height: 500px;
+  }
+
+  h1 {
+    padding-top: 60px;
+    font-size: 7em; 
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  h1, 
+  h2 {
+    color: #E5E5E5;
+    text-align: center;
+    margin: 10px; }
+}

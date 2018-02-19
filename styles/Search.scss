@@ -1,0 +1,25 @@
+.Search {
+  width: 90%;
+  text-align: center;
+  margin:  60px auto;
+
+  #search_input {
+    font-size: 2em;
+    height: 70px;
+    width: 70%;
+    border: none;
+    text-align: center;
+
+
+   }
+
+   button {
+    width: 100px;
+    height: 70px;
+    background-color: #2D3142;
+    border: none;
+    color: #7C7C7C;
+    font-size: 2em;
+  }
+
+}
