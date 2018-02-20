@@ -1,0 +1,17 @@
+.ten-day-forecast {
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
+
+  h2 {
+    margin: 20px 0 0 20px;
+    color: #FFFFFF;
+  }
+
+  .ten-day-grid {
+    display: flex;
+    flex-direction: row;
+
+
+  }
+}
