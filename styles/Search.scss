@@ -1,21 +1,26 @@
 .Search {
+  position: relative;
   width: 90%;
   text-align: center;
   margin:  60px auto;
 
   #searchInput {
+    position: absolute;
+    bottom: 4px;
+    left: 75px;
     font-size: 2em;
-    height: 70px;
-    width: 70%;
+    height: 50px;
+    width: 80%;
     border: none;
     text-align: center;
-
-
    }
 
    button {
+    position: absolute;
+    bottom: 4px;
+    right: 42px;
     width: 100px;
-    height: 70px;
+    height: 50px;
     background-color: #2D3142;
     border: none;
     color: #7C7C7C;
