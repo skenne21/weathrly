@@ -1,0 +1,64 @@
+.CurrentWeather {
+  width: 350px;
+  height: 550px;
+  text-align: center;
+  background-color: #BEBEBE;
+  opacity: 0.8;
+  color:#2D3142;
+  margin: 3%;
+
+  .header {
+    background-color: #AF8161;
+
+  }
+
+  .location{
+    width: 75%;
+    font-size: 3em;
+    margin: 10px auto;
+    border-bottom: 1px #2D3142 solid;
+  }
+
+  .weather{
+    font-size: 2em;
+    margin: 0;
+  }
+
+  .weather-icon {
+    padding-top: 10px;
+    margin: 10px;
+    margin-bottom: 0;
+    width: 35%;  
+  }
+
+  .temp {
+    color: #560039;
+    font-size: 3.5em;
+    margin: 0;
+    padding-bottom: 10px;
+  }
+
+  ul {
+    position: relative;
+    bottom: 30px;
+    right: 30px;
+    list-style-type: none;
+  }
+
+  li {
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 1.5em;
+    padding: 5px;  
+  }
+
+  p {
+
+    position: relative;
+    bottom: 35px;
+    left: 5%;
+    font-size: 1.5em;
+    width: 85%;
+    margin: 5px;
+  }
+}
