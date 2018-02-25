@@ -43,7 +43,7 @@ describe('Card copy DayCard', () => {
 
   const highTemp = '67'
 
-  const day = "SaturdaY";
+  const day = "Saturday";
   
   beforeEach(() => {
     wrapper = shallow(<Card img={ image }                     
