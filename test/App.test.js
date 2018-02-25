@@ -85,15 +85,16 @@ describe('App mount copy', () => {
     expect(storage).toEqual('Chicago,IL')
   })
 
-  // it('should retrieve data from local storage on mount', () => {
-  //   const localStorage = 'localStorage.store';
-  //   const location = 'Chicago,IL';
-  //   localStorage.setItem('location', location);
-  //   console.log(localStorage.store.location)
-  //   console.log(localStorage.location);
-  //   wrapper = mount(<App />);
-  //   expect(wrapper.state().location).toEqual(location);
-  // })
+  it('should retrieve data from local storage on mount', () => {
+    const localStorage = localStorage.store.location;
+    const location = 'Chicago,IL';
+    console.log(localStorage);
+    localStorage.setItem('location', location);
+    console.log(localStorage.store.location)
+    console.log(localStorage.location);
+    wrapper = mount(<App />);
+    expect(wrapper.state().location).toEqual(location);
+  })
 
   // it('should pass the property of setWeather to the Welcome component if there is not a location', () => { 
   //   console.log(wrapper.debug())
