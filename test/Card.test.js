@@ -3,7 +3,7 @@ import { shallow, mount } from 'enzyme';
 import Card from '../lib/Card';
 import data from '../lib/mock-data/CO/Denver.js';
 
-describe('Card compoent hour-card', () => {
+describe('Card copy hour-card', () => {
   let wrapper;
 
   const image = "http://icons.wxug.com/i/c/k/nt_mostlycloudy.gif";
@@ -19,22 +19,22 @@ describe('Card compoent hour-card', () => {
                             temp={ degree }/>)
   })
 
-  it('should exist', () => {
+  it('Should exist', () => {
     expect(wrapper).toBeDefined();
   })
 
-  it('it should render a hour card if the props has a temp', ( ) => {
+  it('Should render a hour card if the props has a temp', ( ) => {
     expect(wrapper.find('div.hour-card').length).toEqual(1); 
   })
 
-  it('it should have props  of an img, period and temp that are passed to the component when it is a hour card', () => {
+  it('Should have props  of an img, period and temp that are passed to the component when it is a hour card', () => {
     expect(wrapper.instance().props.img).toEqual(image)
     expect(wrapper.instance().props.period).toEqual(time)
     expect(wrapper.instance().props.temp).toEqual(degree)
-  });
+  })
 })
 
-describe('Card componet DayCard', () => {
+describe('Card copy DayCard', () => {
   let wrapper;
 
   const image = "http://icons.wxug.com/i/c/k/nt_mostlycloudy.gif";
@@ -56,11 +56,11 @@ describe('Card componet DayCard', () => {
     expect(wrapper).toBeDefined();
   })
 
-  it('it should render a 10 day card if the props has a high and low props', ( ) => {
+  it('Should render a 10 day card if the props has a high and low props', ( ) => {
     expect(wrapper.find('div.DayCard').length).toEqual(1); 
   })
 
-  it('it should have props  of an img, period and temp that are passed to the component when it is a hour card', () => {
+  it('Should have props  of an img, period and temp that are passed to the component when it is a hour card', () => {
     expect(wrapper.instance().props.img).toEqual(image)
     expect(wrapper.instance().props.period).toEqual(day)
     expect(wrapper.instance().props.high).toEqual(highTemp)
