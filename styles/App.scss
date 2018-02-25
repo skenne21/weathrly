@@ -1,17 +1,33 @@
+.App {
+  // 
+
+}
+
+.main-section {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: 20% 20% 60%;
+}
+
 .main-header {
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
   background-color: #560039;
   opacity: 0.6;
-  width: 60%;
-  margin: auto;
-  height: 150px;
+  // width: 100%;
+  margin: 0 20px;
+  height: 165px;
 
   h1 {
     font-size: 3.5em;
     color: #E5E5E5;
     text-align: center;
-    margin: 3%;
-    padding: 3%;
-    padding-bottom: 0;
+    margin: 0;
+    padding: 1%;
+    // padding-bottom: 0;
   }
 
   span {

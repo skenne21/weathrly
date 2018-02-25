@@ -3,7 +3,7 @@
   margin: 0.3em;
   color: #560039;
   text-align: center;
-  width: 6em;
+  width: 10%;
 
   h3 {
     margin: 0px -10px;
@@ -24,26 +24,25 @@
   display: flex;
   justify-content: space-between;
   background-color: #E5E5E5;
-  margin: 10px 30px;
+  margin: 10px auto;
   color: #560039;
-  width: 300px;
+  width: 325px;
 
   h3 {
     font-size: 2.0em;
-    margin: 0px -10px;
+    margin: 0px 10px;
   }
 }
-
 
 .hour-condition {
   display: inline-flex;
 
   h3 {
     font-size: 2.5em;
-    margin: -8px 8px;
+    margin: -8px 3px;
   }
 
   img {
-    margin-right: -10px
+    margin-right: 5px
     }
 }

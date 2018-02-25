@@ -1,9 +1,23 @@
 .seven-hour-forecast {
-  float: right;
-  width: 360px;
+  display: inline-block;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  
+  .container {
+    width: 96%;
+    background-color: #560039;
+    opacity: 0.6; 
+  }
+  .seven-hour-grid {
+    display: inline-flex;
+    flex-wrap: wrap;
+  }
 
   h2 {
-    margin: 100px 40px 0 40px;
+    text-align: center;
+    // margin: 100px 40px 0 40px;
     color: #E5E5E5;
   }
 }
