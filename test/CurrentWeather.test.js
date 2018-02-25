@@ -6,7 +6,7 @@ import data from '../lib/mock-data/CO/Denver.js';
 import newData from '../lib/mock-data/IL/Chicago.js';
 
 
-describe('CurrentWeather shallow copy', () => {
+describe('CurrentWeather', () => {
   let wrapper;
   const readableDate = (date) => {
     let orginal = date.split('');
