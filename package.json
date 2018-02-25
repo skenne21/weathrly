@@ -61,6 +61,7 @@
     "webpack-dev-server": "^1.14.1"
   },
   "dependencies": {
-    "@skenne21/tdd": "git+https://github.com/skenne21/complete-me.git"
+    "@skenne21/tdd": "git+https://github.com/skenne21/complete-me.git",
+    "prop-types": "^15.6.0"
   }
 }
