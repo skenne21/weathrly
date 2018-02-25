@@ -37,4 +37,8 @@
     z-index:100;
   }
 
+  input::-webkit-calendar-picker-indicator {
+    display: none;
+}
+
 }
