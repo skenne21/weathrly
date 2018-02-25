@@ -2,24 +2,26 @@
   position: relative;
   width: 90%;
   text-align: center;
-  margin:  60px auto;
+  margin:  0;
+
+  form {
+    position: relative;
+    bottom: 13px;
+    right: -28px;
+    height: 100px;
+  }
 
   #searchInput {
-    position: absolute;
-    bottom: 4px;
-    left: 75px;
-    font-size: 2em;
+    font-size: 1.5em;
     height: 50px;
-    width: 80%;
+    width: 50%;
     border: none;
-    text-align: center;
+    text-align: center
    }
 
    button {
     position: absolute;
-    bottom: 4px;
-    right: 42px;
-    width: 100px;
+    bottom: 50px;
     height: 50px;
     background-color: #2D3142;
     border: none;
