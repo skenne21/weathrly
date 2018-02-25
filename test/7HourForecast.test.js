@@ -3,7 +3,7 @@ import { shallow, mount } from 'enzyme'
 import SevenHourForecast from '../lib/SevenHourForecast';
 import data from '../lib/mock-data/CO/Denver.js';
 
-describe('Seven Day Forcast shallow component', () => {
+describe('Seven Day Forcast shallow copy', () => {
   let wrapper;
 
   const weather = data.hourly_forecast

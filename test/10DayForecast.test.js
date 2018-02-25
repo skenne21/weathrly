@@ -4,7 +4,7 @@ import TenDayForecast from '../lib/TenDayForecast';
 import Card from '../lib/Card';
 import data from '../lib/mock-data/CO/Denver.js';
 
-describe('10 Day Forcast shallow component', () => {
+describe('10 Day Forcast shallow copy', () => {
   let wrapper;
 
   const weather = data.forecast.simpleforecast.forecastday
