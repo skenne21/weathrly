@@ -11,10 +11,10 @@
 ![alt_text](images/README-images/screencapture-localhost-8080-1519681338764.png "Weather Page")
 
 ### Error Page
-![alt text](images/README-images/screencapture-localhost-8080-1519681433968.png "Erroer Page")
+![alt text](images/README-images/screencapture-localhost-8080-1519681433968.png "Error Page")
 
 ### Mobile Page
-![alt text](images/README-images/screencapture-localhost-8080-1519681402828.png | width=400)
+![alt text](images/README-images/screencapture-localhost-8080-1519681402828.png "Mobile Page")
 
 ## Wireframes
 
