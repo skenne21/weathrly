@@ -26,7 +26,8 @@
   background-color: #E5E5E5;
   margin: 10px auto;
   color: #560039;
-  width: 325px;
+  width: 355px;
+  margin-bottom: 20px;
 
   h3 {
     font-size: 2.0em;
@@ -45,4 +46,22 @@
   img {
     margin-right: 5px
     }
+}
+
+@media screen and (max-width: 1200px) {
+  .hour-card {
+    width: 300px;
+  } 
+}
+
+@media screen and (max-width: 920px) {
+  .day-card {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .day-card {
+    width: 100%;
+  }
 }

@@ -39,6 +39,34 @@
 
   input::-webkit-calendar-picker-indicator {
     display: none;
-}
+  }
 
 }
+
+@media screen and (max-width: 320px) {
+  .Search {
+    width: 100%;
+  
+    form {
+      position: relative;
+      top: 10px;
+      right: 0px;
+      width: 100%;
+    }
+
+    #searchInput {
+    width: 95%;
+    }
+
+    button {
+    position: absolute;
+    left: 85px;
+    top: 55px;
+    height: 40px;
+    width: 140px;
+    margin: 10px;
+    }
+  }
+}
+
+
