@@ -5,7 +5,7 @@
 
 ### Welcome
 
-![alt text](weathrly/images/README-images/screencapture-localhost-8080-1519681477798.png "Welcome Page")
+![alt text](images/README-images/screencapture-localhost-8080-1519681477798.png "Welcome Page")
 
 
 
