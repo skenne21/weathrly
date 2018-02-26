@@ -1,0 +1,117 @@
+.Error {
+  position: relative;
+  width: 800px;
+  opacity: 0.6;
+  margin: 40px auto;
+
+  h1 {
+    position: absolute;
+    right: 150px;
+    top: -22px;
+    font-size: 2.5em;
+    color: #30302C;
+  }
+
+  h2 {
+    position: absolute;
+    bottom: 275px;
+    right: 110px;
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .Error {
+    
+    img {
+      vertical-align: middle;
+      position: relative;
+      left: 50px;
+      height: 600px;
+      width: 600px;
+    }
+
+    h1 {
+      margin: 0;
+      position: absolute;
+      right: 180px;
+      top: 10px;
+      font-size: 2.5em;
+      color: #30302C;
+      z-index: 1;
+    }
+
+    h2 {
+      position: absolute;
+      bottom: 275px;
+      right: 190px;
+      font-size: 1.5em;
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .Error {
+
+    img {
+      height: 400px;
+      width: 400px;
+    }
+
+    h1 {
+      position: absolute;
+      left:75px;
+      font-size: 1.5em;
+    }
+
+    h2 {
+      position: absolute;
+      bottom: 160px;
+      left: 75px;
+      font-size: 1.2em;
+    }
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .Error {
+
+    img {
+      position: relative;
+      left: 30px
+    }
+
+    h1 {
+      position: absolute;
+      left: 60px;
+    }
+
+    h2 {
+      position: absolute;
+      bottom: 160px;
+      left: 50px;
+    }
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .Error {
+    img {
+      height: 300px;
+      width: 300px;
+    }
+
+    h1 {
+      position: absolute;
+      left: 40px;
+      font-size: 1.3em;
+    }
+
+    h2 {
+      position: absolute;
+      bottom: 140px;
+      left: 58px;
+      font-size: 0.85em;
+    }
+  }
+}
