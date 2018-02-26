@@ -1,5 +1,5 @@
 .App {
-  // 
+  position: relative;
 
 }
 
@@ -19,26 +19,43 @@
   grid-row-end: 2;
   background-color: #560039;
   opacity: 0.6;
-  // width: 100%;
   margin: 0 20px;
   height: 165px;
+
+  .icon {
+    img {
+    width: 10%;
+    padding-top: -1px;
+    vertical-align: -webkit-baseline-middle;
+    }
+  }
+  
 
   h1 {
     font-size: 3.5em;
     color: #E5E5E5;
     text-align: center;
-    margin: 0;
+    margin: -25px;
     padding: 1%;
-    // padding-bottom: 0;
   }
 
-  span {
+  .location {
     vertical-align: middle;
     font-size: 0.75em;
   }
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1120px) {
+  .main-header {
+
+    .location {
+      margin-left: 10px;
+      font-size: 0.65em;
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
   .main-section {
       grid-template-columns: 100%;
       grid-template-rows: 10% 30% 30% 30%;
@@ -51,41 +68,52 @@
       grid-row-start: 1;
       grid-row-end: 2;
       margin: 0;
-      height: 270px;
+      height: 200px;
 
     h1 {
       font-size: 2.5em;
     }
+
+    .icon {
+
+      img{
+        width: 12%;
+      }
+    }
+
+
   }
 }
 
-@media screen and (max-width: 320px) {
-    // .main-section {
-    //   grid-template-columns: 100%;
-    //   grid-template-rows: 10% 30% 30% 30%;
-    // }
+@media screen and (max-width: 800px) {
+  .main-header {
+    height: 255px;
+  }
+}
+
+@media screen and (max-width: 420px) {
 
     .main-header {
-      // display: grid;
-      // grid-column-start: 1;
-      // grid-column-end: 3;
-      // grid-row-start: 1;
-      // grid-row-end: 2;
-      // margin: 0;
-      // height: 270px;
 
       h1 {
         padding: -6px;
         position: relative;
-        bottom: 25px;
-        font-size: 2.5em;
+        bottom: 4px;
+        font-size: 2em;
+        right: 5px;
       }
 
-      span {
+      .location {
         position: absolute;
         left: 10px;
-        top: 60px;
+        top: 90px;
         font-size: 0.75em;
+      }
+
+      .icon {
+        img {
+          width: 25%;
+        }
       }
     }  
   } 
