@@ -6,13 +6,13 @@
 
   form {
     position: relative;
-    bottom: 60px;
+    bottom: 12px;
     height: 100px;
   }
 
   #searchInput {
     font-size: 1.5em;
-    height: 48px;
+    height: 34px;
     width: 50%;
     border: none;
     text-align: center
@@ -24,8 +24,8 @@
 
    button {
     position: absolute;
-    bottom: 50px;
-    height: 50px;
+    bottom: 64px;
+    height: 37px;
     background-color: #b5b3b3;
     border: none;
     color: #313030;
@@ -46,11 +46,12 @@
 
 }
 
+
 @media screen and (max-width: 1120px) {
   .Search {
     form {
       position: relative;
-      bottom: 20px;
+      bottom: 0px;
     }
   }
 
@@ -63,7 +64,7 @@
   .Search  {
     form {
       position: relative;
-      bottom: 0;
+      bottom: -10px;
       left: 40px;
     }
 
@@ -79,6 +80,7 @@
     button {
       position: absolute;
       right: 0px;
+      height: 37px;
     }
   }
 }
