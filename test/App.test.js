@@ -37,7 +37,7 @@ describe('App shallow copy', () => {
     wrapper.setState( {location: 'Denver, CO'} );
     wrapper.setState( {error: true} );
     expect(wrapper.find('ErrorPage').length).toEqual(1);
-    expect(wrapper.find('Search').length).toEqual(1);
+    expect(wrapper.find('Search').length).toEqual(0);
   })
 
     it('should save location to local storage', () => {
