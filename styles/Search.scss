@@ -6,26 +6,29 @@
 
   form {
     position: relative;
-    bottom: 13px;
-    right: -28px;
+    bottom: 60px;
     height: 100px;
   }
 
   #searchInput {
     font-size: 1.5em;
-    height: 50px;
+    height: 48px;
     width: 50%;
     border: none;
     text-align: center
    }
 
+  #search-input::placeholder {
+    color:#313030; 
+  }
+
    button {
     position: absolute;
     bottom: 50px;
     height: 50px;
-    background-color: #2D3142;
+    background-color: #b5b3b3;
     border: none;
-    color: #7C7C7C;
+    color: #313030;
     font-size: 2em;
   }
 
@@ -43,28 +46,69 @@
 
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1120px) {
   .Search {
-    width: 100%;
-  
     form {
       position: relative;
-      top: 10px;
-      right: 0px;
-      width: 100%;
+      bottom: 20px;
+    }
+  }
+
+}
+
+
+
+@media screen and (max-width: 800px) {
+
+  .Search  {
+    form {
+      position: relative;
+      bottom: 0;
+      left: 40px;
     }
 
     #searchInput {
-    width: 95%;
+      font-size: 1.5em;
+      height: 48px;
+      width: 100;
+      width: 100%;
+      border: none;
+      text-align: left;
     }
 
     button {
-    position: absolute;
-    left: 85px;
-    top: 55px;
-    height: 40px;
-    width: 140px;
-    margin: 10px;
+      position: absolute;
+      right: 0px;
+    }
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .Search {
+    width: 100%;
+    
+    form {
+      position: relative;
+      bottom: -60px;
+      left: 0;
+      right: 0px;
+      width: 90%;
+    }
+    
+
+    #searchInput {
+      position: relative;
+      left: 17px;
+      width: 100%;
+    }
+
+    button {
+      position: absolute;
+      right: -30px;
+      bottom: 40px;
+      height: 50px;
+      width: 110px;
+      margin: 10px;
     }
   }
 }
