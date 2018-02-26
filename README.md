@@ -1,31 +1,18 @@
-# React Starter Kit
+# Weatherly
 
-To install the dependencies:
+## Screenshots
 
-```
-npm install
-```
+### Welcome
 
-To fire up a development server:
+### Weather
 
-```
-npm start
-```
+### Error Page
 
-Once the server is running, you can visit:
+## Wireframes
 
-* `http://localhost:8080/webpack-dev-server/` to run your application.
-* `http://localhost:8080/webpack-dev-server/test.html` to run your test suite in the browser.
+### Welcome
 
-To build the static files:
+### Weather
 
-```js
-npm run build
-```
+### Error Page
 
-
-To run tests in Node:
-
-```js
-npm test
-```
