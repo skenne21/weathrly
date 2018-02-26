@@ -49,13 +49,13 @@ describe('App shallow copy', () => {
   })
 
   it('should retrieve data from local storage on mount', () => {
-    wrapper.setState( {location: 'Chicago,IL'} ); //set initial location to Chicago
-    const location = 'Atlanta,GA'; //this will be the new location
-    wrapper.instance().setLocationInLocalStorage(location); //save location to local storage
-    const storage = localStorage.store.location; //simulated local storage
-    const updatedLocation = localStorage.getItem('location'); //updatedLocation pull from local storage
-    wrapper.setState( { location: storage } ) //set state to location pulled from local storage
-    expect(wrapper.state().location).toEqual(location); //expect state to equal new location
+    wrapper.setState( {location: 'Chicago,IL'} );
+    const location = 'Atlanta,GA';
+    wrapper.instance().setLocationInLocalStorage(location);
+    const storage = localStorage.store.location;
+    const updatedLocation = localStorage.getItem('location');
+    wrapper.setState( { location: storage } );
+    expect(wrapper.state().location).toEqual(location);
   })
 
 })
@@ -103,17 +103,40 @@ describe('App mount copy', () => {
   })
 
   it('should call the setWeather method on mount', () => {
-    const spy = jest.spyOn(App.prototype, 'setWeather');
-    const wrapper = mount(<App location = 'Chicago,IL' />);
-    expect(spy).toHaveBeenCalled();
+    const setWeather = jest.fn();
+    const location = 'Atlanta,GA'; 
+    const componentDidMount = () => {
+      if (localStorage.store.location) {
+        const updatedLocation = localStorage.getItem('location');
+
+        setWeather(updatedLocation);
+      }
+    }
+    wrapper.instance().setLocationInLocalStorage(location);
+    componentDidMount();
+    expect(setWeather.mock.calls.length).toEqual(1);
+  })
+
+  it('should call the setLocation method on mount', () => {
+    const setLocation = jest.fn();
+    const location = 'Atlanta,GA';
+    const setWeather = (location) => {
+      setLocation(location);
+    }
+    wrapper.instance().setLocationInLocalStorage(location);
+    setWeather();
+    expect(setLocation.mock.calls.length).toEqual(1);
   })
 
   it('should call the setLocationInLocalStorage method on mount', () => {
-    const spy = jest.spyOn(App.prototype, 'setLocationInLocalStorage');
-    const wrapper = mount(<App location = 'Chicago,IL' />);
-    expect(spy).toHaveBeenCalled();
+    const setLocationInLocalStorage = jest.fn();
+    const location = 'Atlanta,GA'; 
+    const setWeather = (location) => {
+      setLocationInLocalStorage(location);
+    }
+    wrapper.instance().setLocationInLocalStorage(location);
+    setWeather();
+    expect(setLocationInLocalStorage.mock.calls.length).toEqual(1);
   })
-
-
 
 })
