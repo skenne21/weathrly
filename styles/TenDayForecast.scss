@@ -22,3 +22,36 @@
 
   }
 }
+
+
+
+@media screen and (max-width: 980px) {
+  .ten-day-forecast {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    position: relative;
+    left: 25px;
+    overflow-y: scroll;
+    height: 600px;
+
+    .ten-day-grid {
+      flex-wrap: wrap;
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .ten-day-forecast {
+    position: relative;
+    left: 4px;
+
+    .ten-day-grid {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
