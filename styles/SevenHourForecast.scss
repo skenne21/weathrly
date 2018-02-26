@@ -4,14 +4,14 @@
   grid-column-end: 3;
   grid-row-start: 3;
   grid-row-end: 4;
-  overflow-y: scroll;
   max-width: 750px;
   height: 600px;
+  overflow-y: scroll;
   
   .container {
     width: 85%;
-    background-color: #560039;
     opacity: 0.6; 
+    background-color: #560039;
   }
   .seven-hour-grid {
     display: inline-flex;
@@ -21,9 +21,9 @@
 
   h2 {
     margin: 15px 0;
+    color: #E5E5E5;
     font-size: 2em;
     text-align: center;
-    color: #E5E5E5;
   }
 
 

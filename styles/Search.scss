@@ -1,8 +1,8 @@
 .Search {
   position: relative;
+  margin:  0;
   width: 90%;
   text-align: center;
-  margin:  0;
 
   form {
     position: relative;
@@ -11,10 +11,10 @@
   }
 
   #searchInput {
-    font-size: 1.5em;
-    height: 34px;
-    width: 50%;
     border: none;
+    width: 50%;
+    height: 34px;
+    font-size: 1.5em;
     text-align: center
    }
 
@@ -25,9 +25,9 @@
    button {
     position: absolute;
     bottom: 64px;
+    border: none;
     height: 37px;
     background-color: #b5b3b3;
-    border: none;
     color: #313030;
     font-size: 2em;
   }
@@ -35,9 +35,9 @@
   li {
     padding-top: 300px;
     margin-top: 200px;
+    z-index:100;
     background-color: white;
     color:green;
-    z-index:100;
   }
 
   input::-webkit-calendar-picker-indicator {
@@ -69,11 +69,10 @@
     }
 
     #searchInput {
-      font-size: 1.5em;
       height: 48px;
-      width: 100;
       width: 90%;
       border: none;
+      font-size: 1.5em;
       text-align: left;
     }
 

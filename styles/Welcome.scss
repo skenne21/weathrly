@@ -3,10 +3,10 @@
   
   header {
     margin: auto;
-    background-color: #560039;
+    height: 500px;
     opacity: 0.6;
     width: 60%;
-    height: 500px;
+    background-color: #560039;
   }
 
   .icon {
@@ -22,15 +22,15 @@
   }
 
   h2 {
-    font-size: 2em;
     margin: 80px;
+    font-size: 2em;
   }
 
   h1, 
   h2 {
+    margin: 10px; 
     color: #E5E5E5;
     text-align: center;
-    margin: 10px; 
   }
 
   .search-container {
@@ -42,12 +42,12 @@
 @media screen and (max-width: 900px) {
   .Welcome{
     h1 {
-    font-size: 4.5em;
+      font-size: 4.5em;
     }
 
     h2 {
-    font-size: 1.75em;
-    margin: 32px;
+      font-size: 1.75em;
+      margin: 32px;
     }
 
     .search-container {
@@ -75,11 +75,11 @@
     }
 
     h1 {
-    font-size: 3.5em;
+      font-size: 3.5em;
     }
 
     h2 {
-    font-size: 1.75em;
+      font-size: 1.75em;
     }
 
   }
@@ -88,7 +88,7 @@
 @media screen and (max-width: 460px) {
   .Welcome {
     h2 {
-    margin: 10;
+      margin: 10;
     }
 
     .search-container {

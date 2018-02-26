@@ -10,33 +10,33 @@
     
 }
 
-
 .main-header {
   display: grid;
   grid-column-start: 1;
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 2;
-  background-color: #560039;
-  opacity: 0.6;
-  margin: 0 20px;
   height: 165px;
+  margin: 0 20px;
+  opacity: 0.6;
+  background-color: #560039;
 
   .icon {
+    
     img {
-    width: 10%;
     padding-top: -1px;
+    width: 10%;
     vertical-align: -webkit-baseline-middle;
     }
   }
   
 
   h1 {
-    font-size: 3.5em;
-    color: #E5E5E5;
-    text-align: center;
     margin: -25px;
     padding: 1%;
+    color: #E5E5E5;
+    font-size: 3.5em;
+    text-align: center;
   }
 
   .location {
@@ -67,8 +67,8 @@
       grid-column-end: 3;
       grid-row-start: 1;
       grid-row-end: 2;
-      margin: 0;
       height: 200px;
+      margin: 0;
 
     h1 {
       font-size: 2.5em;
@@ -96,11 +96,11 @@
     .main-header {
 
       h1 {
-        padding: -6px;
         position: relative;
         bottom: -30px;
-        font-size: 2em;
         left: 73px;
+        padding: -6px;
+        font-size: 2em;
         text-align: left;
       }
 
