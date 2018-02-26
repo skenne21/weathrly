@@ -1,17 +1,17 @@
 .day-card {
-  background-color: #E5E5E5;
   margin: 0.3em;
+  width: 10%;
+  background-color: #E5E5E5;
   color: #560039;
   text-align: center;
-  width: 10%;
 
   h3 {
     margin: 0px -10px;
   }
 
   p {
-    font-size: 2.5em;
     margin: -15px 0 0 0;
+    font-size: 2.5em;
   }
 
   .day-high {
@@ -23,15 +23,15 @@
 .hour-card {
   display: flex;
   justify-content: space-between;
-  background-color: #E5E5E5;
-  margin: 10px auto;
-  color: #560039;
-  width: 300px;
   margin-bottom: 20px;
+  margin: 10px auto;
+  width: 300px;
+  background-color: #E5E5E5;
+  color: #560039;
 
   h3 {
-    font-size: 2.0em;
     margin: 0px 10px;
+    font-size: 2.0em;
   }
 }
 
@@ -39,20 +39,14 @@
   display: inline-flex;
 
   h3 {
-    font-size: 2.5em;
     margin: -8px 3px;
+    font-size: 2.5em;
   }
 
   img {
     margin-right: 5px
     }
 }
-
-// @media screen and (max-width: 1200px) {
-//   .hour-card {
-//     width: 300px;
-//   } 
-// }
 
 @media screen and (max-width: 1000px) {
   .day-card {
