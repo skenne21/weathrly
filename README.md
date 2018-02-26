@@ -7,16 +7,14 @@
 
 ![alt text](images/README-images/screencapture-localhost-8080-1519681477798.png "Welcome Page")
 
-
-
 ## Weather
-https://github.com/skenne21/weathrly/blob/master/images/README-images/screencapture-localhost-8080-1519681338764.png?raw=true
+![alt_text](images/README-images/screencapture-localhost-8080-1519681338764.png "Weather Page")
 
 ### Error Page
-https://github.com/skenne21/weathrly/blob/master/images/README-images/screencapture-localhost-8080-1519681433968.png?raw=true
+![alt text](images/README-images/screencapture-localhost-8080-1519681433968.png "Erroer Page")
 
 ### Mobile Page
-https://github.com/skenne21/weathrly/blob/master/images/README-images/screencapture-localhost-8080-1519681402828.png?raw=true
+![alt text](images/README-images/screencapture-localhost-8080-1519681402828.png "Mobile Page")
 
 ## Wireframes
 
