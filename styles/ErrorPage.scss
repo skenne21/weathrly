@@ -1,12 +1,23 @@
 .Error {
+
   position: relative;
-  width: 800px;
+  width: 80%;
   opacity: 0.6;
   margin: 40px auto;
 
+  .header {
+    position: relative;
+    left: 150px;
+    width: 800px;
+    height: 600px;
+    background-image: url('../images/giphy.gif');
+    background-repeat: no-repeat;
+    background-size: cover;  
+  }
+
   h1 {
     position: absolute;
-    right: 150px;
+    left: 80px;
     top: -22px;
     font-size: 2.5em;
     color: #30302C;
@@ -14,72 +25,90 @@
 
   h2 {
     position: absolute;
-    bottom: 275px;
-    right: 110px;
+    bottom: 100px;
+    left: 80px;
     font-size: 2em;
+  }
+
+  .search-container {
+    position: relative;
+    top: 500px;
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1200px) {
   .Error {
-    
-    img {
-      vertical-align: middle;
-      position: relative;
-      left: 50px;
-      height: 600px;
-      width: 600px;
+    .header {
+    position: relative;
+    left: 50px;
     }
+  }  
+}
 
+@media screen and (max-width: 990px) {
+  .Error {
+    width: 100%;
+    .header {
+      position: relative;
+      left: 25px;
+      width: 600px;
+
+
+    }
+    
     h1 {
       margin: 0;
       position: absolute;
-      right: 180px;
       top: 10px;
-      font-size: 2.5em;
+      font-size: 2em;
       color: #30302C;
       z-index: 1;
     }
 
     h2 {
       position: absolute;
-      bottom: 275px;
-      right: 190px;
+      bottom: 100px;
+      right: 0;
       font-size: 1.5em;
     }
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
   .Error {
+      width: 500px;
 
-    img {
-      height: 400px;
+    .header {
+      position: relative;
+      left: 25px;
       width: 400px;
+      height: 300px;
+
     }
 
     h1 {
       position: absolute;
-      left:75px;
+      left: 45px;
       font-size: 1.5em;
     }
 
     h2 {
       position: absolute;
-      bottom: 160px;
-      left: 75px;
-      font-size: 1.2em;
+      bottom: 86px;
+      left: 60px;
+      font-size: 1em;
+    }
+
+    .search-container {
+      position: relative;
+      top: 200px;
+      right: 25px;
     }
   }
 }
 
 @media screen and (max-width: 470px) {
   .Error {
-
-    img {
-      position: relative;
-      left: 30px
-    }
 
     h1 {
       position: absolute;
@@ -96,22 +125,29 @@
 
 @media screen and (max-width: 375px) {
   .Error {
-    img {
-      height: 300px;
+
+    .header {
+      position: relative;
+      left: 45px;
       width: 300px;
+      height: 300px;
     }
 
     h1 {
       position: absolute;
       left: 40px;
-      font-size: 1.3em;
+      font-size: 1em;
     }
 
     h2 {
       position: absolute;
-      bottom: 140px;
-      left: 58px;
-      font-size: 0.85em;
+      bottom: 65px;
+      font-size: .8em;
+    }
+
+    .search-container {
+      position: relative;
+      right: 0px;
     }
   }
 }
