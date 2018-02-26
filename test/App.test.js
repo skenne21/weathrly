@@ -35,7 +35,7 @@ describe('App shallow copy', () => {
 
   it('should render ErrorPage and Search components if state.error equals true', () => {
     wrapper.setState( {location: 'Denver, CO'} );
-    wrapper.setState( {error: true} );
+    wrapper.setState( {error: true } );
     expect(wrapper.find('ErrorPage').length).toEqual(1);
     expect(wrapper.find('Search').length).toEqual(0);
   })
@@ -96,7 +96,7 @@ describe('App mount copy', () => {
     expect(wrapper.find('SevenHourForecast').length).toEqual(1);
   })
 
-    it('should call the componentDidMount method on mount', () => {
+  it('should call the componentDidMount method on mount', () => {
     const spy = jest.spyOn(App.prototype, 'componentDidMount');
     const wrapper = mount(<App />);
     expect(spy).toHaveBeenCalled();
@@ -104,7 +104,11 @@ describe('App mount copy', () => {
 
   it('should call the setWeather method on mount', () => {
     const setWeather = jest.fn();
+<<<<<<< HEAD
+    const locatxion = 'Atlanta,GA'; 
+=======
     const location = 'Atlanta,GA'; 
+>>>>>>> f65eba2a8c14913e8724e8980fffedc1cdd73503
     const componentDidMount = () => {
       if (localStorage.store.location) {
         const updatedLocation = localStorage.getItem('location');
