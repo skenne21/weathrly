@@ -22,7 +22,6 @@ describe('Error', () => {
   it('should render a header with text and an image', () => {
     expect(wrapper.find('header').length).toEqual(1);
     expect(wrapper.find('h1').length).toEqual(1);
-    expect(wrapper.find('img').length).toEqual(1);
     expect(wrapper.find('h2').length).toEqual(1);
   })
 

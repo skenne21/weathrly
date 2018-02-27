@@ -104,11 +104,7 @@ describe('App mount copy', () => {
 
   it('should call the setWeather method on mount', () => {
     const setWeather = jest.fn();
-<<<<<<< HEAD
-    const locatxion = 'Atlanta,GA'; 
-=======
     const location = 'Atlanta,GA'; 
->>>>>>> f65eba2a8c14913e8724e8980fffedc1cdd73503
     const componentDidMount = () => {
       if (localStorage.store.location) {
         const updatedLocation = localStorage.getItem('location');
