@@ -19,7 +19,7 @@
 ## Wireframes
 
 ### Welcome
-
+![alt text](images/README-images/Screen Shot 2018-02-26 at 5.20.13 PM.png "Welcome Page")
 ### Desktop
 ![alt text](https://github.com/skenne21/weathrly/blob/master/images/README-images/Screen%20Shot%202018-02-26%20at%205.19.52%20PM.png "Desktop Page")
 
