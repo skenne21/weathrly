@@ -1,6 +1,6 @@
 # Weatherly
 
-
+This project was our first real interactions with ReactJS, asynchronous javascript, and managing the state of your our weather application. This project required pulling real data from weather underground API and using fetch calls. This project incorporated an auto complete trie that we installed that helps fill in suggested states, cities and zip codes. We made this project fully responsive to our design and layout. To be able to use this application you will need to get a api key from weather underground and place in the apiKey file as a variable.
 ## Screenshots
 
 ### Welcome
