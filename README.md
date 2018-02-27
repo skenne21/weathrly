@@ -21,7 +21,7 @@
 ### Welcome
 
 ### Desktop
-![alt text](https://github.com/skenne21/weathrly/blob/master/images/README-images/Screen%20Shot%202018-02-26%20at%205.19.52%20PM.png "Desktop Page"
+![alt text](https://github.com/skenne21/weathrly/blob/master/images/README-images/Screen%20Shot%202018-02-26%20at%205.19.52%20PM.png "Desktop Page")
 
 ### Error Page
 
